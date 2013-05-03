@@ -1,0 +1,58 @@
+/*
+Theme Name: co.artmann.snowwhite
+Theme URI: http://artmann.co
+Author: Christoffer Artmann
+Author URI: http://artmann.co
+Version: 1.0
+License: WTF License
+Tags: light, white, one-column
+*/
+
+body {
+	line-height: 1.5em;
+	font-size: 1.1em;
+}
+
+#wrapper {
+	width: 37em;
+	overflow: hidden;
+	margin: 0em auto;
+}
+
+.header {
+	overflow: hidden;
+}
+
+.header .navigation {
+	float: left;
+	width: 25em;
+}
+
+.header .navigation ul {
+	list-style: none;
+}
+
+.header .navigation ul li {
+	float: left;
+	margin-right: 1em;
+}
+
+.header .navigation .categories ul {
+	position: relative;
+	padding: 0em;
+}
+
+.header .navigation .categories:hover ul {
+	display: block;
+	width: 10em;
+}
+
+.header .navigation .categories ul li {
+	float: none;
+	position: relative;
+	margin: 0em 0.5em;
+}
+
+.header .navigation .categories ul {
+	display: none;
+}
