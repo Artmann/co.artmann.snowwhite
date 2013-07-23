@@ -11,12 +11,16 @@ Tags: light, white, one-column
 body {
 	line-height: 1.5em;
 	font-size: 1.1em;
+	background: #AAA;
+        margin-top: -1.6em;
 }
 
 #wrapper {
-	width: 37em;
+	width: 57em;
 	overflow: hidden;
 	margin: 0em auto;
+        background: #FFF;
+        padding: 2em 4em;
 }
 
 .header {
@@ -55,4 +59,39 @@ body {
 
 .header .navigation .categories ul {
 	display: none;
+}
+
+article {
+  font-family: Cabin, Helvetica, Arial, sans-serif;
+  color: #777;
+}
+
+article .entry-header {
+  background: #00CCFF; 
+  width: 40em;
+  height: 2em;
+  margin-left: -4em;
+}
+
+article .entry-header h1 {
+  padding-top: .1em;
+}
+
+article .entry-header h1 a {
+  color: #FFF;
+  text-decoration: none;
+  margin-left: 2em;
+}
+
+article .entry-content a {
+  color: #00CCFF
+}
+
+article .entry-content img {
+  border: solid 1px #333;
+  box-shadow: 2px 2px 6px #777;
+}
+
+article .entry-content dd {
+  margin-top: .5em;
 }
